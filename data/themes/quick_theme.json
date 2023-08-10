@@ -1,0 +1,178 @@
+{
+  "window": {
+    "colours": {
+      "dark_bg": "#ffc0cb",
+      "normal_border": "#ffffff"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "10",
+      "border_width": "1",
+      "shadow_width": "15",
+      "title_bar_height": "20"
+    }
+  },
+  "window.#title_bar": {
+    "misc": {
+      "text_horizon_alignment": "center"
+    }
+  },
+  "#drop_down_shape_prototype": {
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "18"
+    }
+  },
+  "#drop_down_text_prototype": {
+    "colours": {
+      "normal_bg": "#ffc0cb",
+      "normal_text": "#ffffff",
+      "normal_border": "#ffffff",
+      "active_bg": "#ff8b9f",
+      "active_text": "#ffffff",
+      "active_border": "#ffffff",
+      "hovered_bg": "#ff8b9f",
+      "hovered_text": "#ffffff",
+      "hovered_border": "#ffffff"
+    },
+    "font": {
+      "name": "montserrat",
+      "size": "18",
+      "bold": "0",
+      "italic": "1",
+      "regular_resource": {
+        "package": "data.fonts",
+        "resource": "font.ttf"
+      }
+    }
+  },
+  "drop_down_menu": {
+    "prototype": "#drop_down_shape_prototype",
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_border": "#ffffff"
+    },
+    "misc": {
+      "shadow_width": "2",
+      "border_width": "2",
+      "expand_direction": "down",
+      "open_button_width": "0"
+    }
+  },
+  "drop_down_menu.#drop_down_options_list": {
+    "prototype": "#drop_down_shape_prototype",
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_border": "#ffffff",
+      "normal_bg": "#ffc0cb",
+      "normal_text": "#ffffff",
+      "active_bg": "#ff8b9f",
+      "active_text": "#ffffff",
+      "active_border": "#ffffff",
+      "hovered_bg": "#ff8b9f",
+      "hovered_text": "#ffffff",
+      "hovered_border": "#ffffff"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "4",
+      "shadow_width": "2",
+      "border_width": "2"
+    }
+  },
+  "drop_down_menu.#drop_down_options_list.vertical_scroll_bar": {
+    "colours": {
+      "dark_bg": "#ffffff",
+      "normal_border": "#ffffff",
+      "disabled_dark_bg": "#ffffff",
+      "disabled_border": "#ffffff"
+    },
+    "misc": {
+      "shadow_width": "0",
+      "border_width": "1",
+      "enable_arrow_buttons": "0"
+    }
+  },
+  "drop_down_menu.#drop_down_options_list.button": {
+    "prototype": "#drop_down_shape_prototype",
+    "prototype": "#drop_down_text_prototype",
+    "colours": {
+      "normal_bg": "#ffc0cb",
+      "normal_text": "#ffffff",
+      "normal_border": "#ffffff",
+      "active_bg": "#ff8b9f",
+      "active_text": "#ffffff",
+      "active_border": "#ffffff",
+      "hovered_bg": "#ff8b9f",
+      "hovered_text": "#ffffff",
+      "hovered_border": "#ffffff",
+      "selected_bg": "#ff8b9f",
+      "selected_text": "#ffffff",
+      "selected_border": "#ffffff"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "4",
+      "shadow_width": "0",
+      "border_width": "0",
+      "state_transitions": {
+        "normal_hovered": "0.2",
+        "hovered_normal": "0.5"
+      }
+    }
+  },
+  "drop_down_menu.button": {
+    "prototype": "#drop_down_shape_prototype",
+    "prototype": "#drop_down_text_prototype",
+    "colours": {
+      "normal_bg": "#ffc0cb",
+      "normal_text": "#ffffff",
+      "normal_border": "#ffffff",
+      "active_bg": "#ff8b9f",
+      "active_text": "#ffffff",
+      "active_border": "#ffffff",
+      "hovered_bg": "#ff8b9f",
+      "hovered_text": "#ffffff",
+      "hovered_border": "#ffffff"
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "18",
+      "shadow_width": "0",
+      "border_width": "0",
+      "state_transitions": {
+        "normal_hovered": "0.2",
+        "hovered_normal": "0.5"
+      }
+    }
+  },
+  "button": {
+    "colours": {
+      "normal_bg": "#ffc0cb",
+      "normal_text": "#ffffff",
+      "normal_border": "#ffffff",
+      "active_bg": "#ff8b9f",
+      "active_text": "#ffffff",
+      "active_border": "#ffffff",
+      "hovered_bg": "#ff8b9f",
+      "hovered_text": "#ffffff",
+      "hovered_border": "#ffffff"
+    },
+    "font": {
+      "name": "my_font",
+      "size": "24",
+      "bold": "0",
+      "italic": "1",
+      "regular_resource": {
+        "package": "data.fonts",
+        "resource": "font.ttf"
+      }
+    },
+    "misc": {
+      "shape": "rounded_rectangle",
+      "shape_corner_radius": "18",
+      "border_width": "4",
+      "shadow_width": "4"
+    }
+  }
+}
